@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F276279B257FF55000573012 /* AI_InsuranceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F276279A257FF55000573012 /* AI_InsuranceApp.swift */; };
+		F276279D257FF55000573012 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F276279C257FF55000573012 /* ContentView.swift */; };
+		F276279F257FF55100573012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F276279E257FF55100573012 /* Assets.xcassets */; };
+		F27627A2257FF55100573012 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27627A1257FF55100573012 /* Preview Assets.xcassets */; };
+		F27627AD257FF55100573012 /* AI_InsuranceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27627AC257FF55100573012 /* AI_InsuranceTests.swift */; };
+		F27627B8257FF55100573012 /* AI_InsuranceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27627B7257FF55100573012 /* AI_InsuranceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F27627A9257FF55100573012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F276278F257FF55000573012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2762796257FF55000573012;
+			remoteInfo = "AI-Insurance";
+		};
+		F27627B4257FF55100573012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F276278F257FF55000573012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2762796257FF55000573012;
+			remoteInfo = "AI-Insurance";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2762797257FF55000573012 /* AI-Insurance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI-Insurance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F276279A257FF55000573012 /* AI_InsuranceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_InsuranceApp.swift; sourceTree = "<group>"; };
+		F276279C257FF55000573012 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F276279E257FF55100573012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F27627A1257FF55100573012 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F27627A3257FF55100573012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F27627A8257FF55100573012 /* AI-InsuranceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI-InsuranceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27627AC257FF55100573012 /* AI_InsuranceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_InsuranceTests.swift; sourceTree = "<group>"; };
+		F27627AE257FF55100573012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F27627B3257FF55100573012 /* AI-InsuranceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI-InsuranceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27627B7257FF55100573012 /* AI_InsuranceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_InsuranceUITests.swift; sourceTree = "<group>"; };
+		F27627B9257FF55100573012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2762794257FF55000573012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27627A5257FF55100573012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27627B0257FF55100573012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F276278E257FF55000573012 = {
+			isa = PBXGroup;
+			children = (
+				F2762799257FF55000573012 /* AI-Insurance */,
+				F27627AB257FF55100573012 /* AI-InsuranceTests */,
+				F27627B6257FF55100573012 /* AI-InsuranceUITests */,
+				F2762798257FF55000573012 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2762798257FF55000573012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2762797257FF55000573012 /* AI-Insurance.app */,
+				F27627A8257FF55100573012 /* AI-InsuranceTests.xctest */,
+				F27627B3257FF55100573012 /* AI-InsuranceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2762799257FF55000573012 /* AI-Insurance */ = {
+			isa = PBXGroup;
+			children = (
+				F276279A257FF55000573012 /* AI_InsuranceApp.swift */,
+				F276279C257FF55000573012 /* ContentView.swift */,
+				F276279E257FF55100573012 /* Assets.xcassets */,
+				F27627A3257FF55100573012 /* Info.plist */,
+				F27627A0257FF55100573012 /* Preview Content */,
+			);
+			path = "AI-Insurance";
+			sourceTree = "<group>";
+		};
+		F27627A0257FF55100573012 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F27627A1257FF55100573012 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F27627AB257FF55100573012 /* AI-InsuranceTests */ = {
+			isa = PBXGroup;
+			children = (
+				F27627AC257FF55100573012 /* AI_InsuranceTests.swift */,
+				F27627AE257FF55100573012 /* Info.plist */,
+			);
+			path = "AI-InsuranceTests";
+			sourceTree = "<group>";
+		};
+		F27627B6257FF55100573012 /* AI-InsuranceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F27627B7257FF55100573012 /* AI_InsuranceUITests.swift */,
+				F27627B9257FF55100573012 /* Info.plist */,
+			);
+			path = "AI-InsuranceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2762796257FF55000573012 /* AI-Insurance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F27627BC257FF55100573012 /* Build configuration list for PBXNativeTarget "AI-Insurance" */;
+			buildPhases = (
+				F2762793257FF55000573012 /* Sources */,
+				F2762794257FF55000573012 /* Frameworks */,
+				F2762795257FF55000573012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AI-Insurance";
+			productName = "AI-Insurance";
+			productReference = F2762797257FF55000573012 /* AI-Insurance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F27627A7257FF55100573012 /* AI-InsuranceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F27627BF257FF55100573012 /* Build configuration list for PBXNativeTarget "AI-InsuranceTests" */;
+			buildPhases = (
+				F27627A4257FF55100573012 /* Sources */,
+				F27627A5257FF55100573012 /* Frameworks */,
+				F27627A6257FF55100573012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F27627AA257FF55100573012 /* PBXTargetDependency */,
+			);
+			name = "AI-InsuranceTests";
+			productName = "AI-InsuranceTests";
+			productReference = F27627A8257FF55100573012 /* AI-InsuranceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F27627B2257FF55100573012 /* AI-InsuranceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F27627C2257FF55100573012 /* Build configuration list for PBXNativeTarget "AI-InsuranceUITests" */;
+			buildPhases = (
+				F27627AF257FF55100573012 /* Sources */,
+				F27627B0257FF55100573012 /* Frameworks */,
+				F27627B1257FF55100573012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F27627B5257FF55100573012 /* PBXTargetDependency */,
+			);
+			name = "AI-InsuranceUITests";
+			productName = "AI-InsuranceUITests";
+			productReference = F27627B3257FF55100573012 /* AI-InsuranceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F276278F257FF55000573012 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					F2762796257FF55000573012 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					F27627A7257FF55100573012 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = F2762796257FF55000573012;
+					};
+					F27627B2257FF55100573012 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = F2762796257FF55000573012;
+					};
+				};
+			};
+			buildConfigurationList = F2762792257FF55000573012 /* Build configuration list for PBXProject "AI-Insurance" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F276278E257FF55000573012;
+			productRefGroup = F2762798257FF55000573012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2762796257FF55000573012 /* AI-Insurance */,
+				F27627A7257FF55100573012 /* AI-InsuranceTests */,
+				F27627B2257FF55100573012 /* AI-InsuranceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2762795257FF55000573012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27627A2257FF55100573012 /* Preview Assets.xcassets in Resources */,
+				F276279F257FF55100573012 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27627A6257FF55100573012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27627B1257FF55100573012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2762793257FF55000573012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F276279D257FF55000573012 /* ContentView.swift in Sources */,
+				F276279B257FF55000573012 /* AI_InsuranceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27627A4257FF55100573012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27627AD257FF55100573012 /* AI_InsuranceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27627AF257FF55100573012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27627B8257FF55100573012 /* AI_InsuranceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F27627AA257FF55100573012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2762796257FF55000573012 /* AI-Insurance */;
+			targetProxy = F27627A9257FF55100573012 /* PBXContainerItemProxy */;
+		};
+		F27627B5257FF55100573012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2762796257FF55000573012 /* AI-Insurance */;
+			targetProxy = F27627B4257FF55100573012 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F27627BA257FF55100573012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F27627BB257FF55100573012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F27627BD257FF55100573012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AI-Insurance/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AI-Insurance/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devexc.AI-Insurance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F27627BE257FF55100573012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AI-Insurance/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AI-Insurance/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devexc.AI-Insurance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F27627C0257FF55100573012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AI-InsuranceTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devexc.AI-InsuranceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AI-Insurance.app/AI-Insurance";
+			};
+			name = Debug;
+		};
+		F27627C1257FF55100573012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AI-InsuranceTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devexc.AI-InsuranceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AI-Insurance.app/AI-Insurance";
+			};
+			name = Release;
+		};
+		F27627C3257FF55100573012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AI-InsuranceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devexc.AI-InsuranceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AI-Insurance";
+			};
+			name = Debug;
+		};
+		F27627C4257FF55100573012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AI-InsuranceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devexc.AI-InsuranceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AI-Insurance";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2762792257FF55000573012 /* Build configuration list for PBXProject "AI-Insurance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27627BA257FF55100573012 /* Debug */,
+				F27627BB257FF55100573012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F27627BC257FF55100573012 /* Build configuration list for PBXNativeTarget "AI-Insurance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27627BD257FF55100573012 /* Debug */,
+				F27627BE257FF55100573012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F27627BF257FF55100573012 /* Build configuration list for PBXNativeTarget "AI-InsuranceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27627C0257FF55100573012 /* Debug */,
+				F27627C1257FF55100573012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F27627C2257FF55100573012 /* Build configuration list for PBXNativeTarget "AI-InsuranceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27627C3257FF55100573012 /* Debug */,
+				F27627C4257FF55100573012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F276278F257FF55000573012 /* Project object */;
+}

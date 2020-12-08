@@ -13,6 +13,8 @@
 		F27627A2257FF55100573012 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27627A1257FF55100573012 /* Preview Assets.xcassets */; };
 		F27627AD257FF55100573012 /* AI_InsuranceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27627AC257FF55100573012 /* AI_InsuranceTests.swift */; };
 		F27627B8257FF55100573012 /* AI_InsuranceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27627B7257FF55100573012 /* AI_InsuranceUITests.swift */; };
+		F27627D925800E2700573012 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27627D825800E2700573012 /* LoginView.swift */; };
+		F2D5AE9C2580206000EC85FA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2D5AE9E2580206000EC85FA /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,10 @@
 		F27627B3257FF55100573012 /* AI-InsuranceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI-InsuranceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27627B7257FF55100573012 /* AI_InsuranceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_InsuranceUITests.swift; sourceTree = "<group>"; };
 		F27627B9257FF55100573012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F27627D825800E2700573012 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F2D5AE9D2580206000EC85FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2D5AEA8258022F700EC85FA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2D5AEAC2580230300EC85FA /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +101,13 @@
 		F2762799257FF55000573012 /* AI-Insurance */ = {
 			isa = PBXGroup;
 			children = (
+				F27627D725800E0700573012 /* Auth */,
 				F276279A257FF55000573012 /* AI_InsuranceApp.swift */,
 				F276279C257FF55000573012 /* ContentView.swift */,
 				F276279E257FF55100573012 /* Assets.xcassets */,
 				F27627A3257FF55100573012 /* Info.plist */,
 				F27627A0257FF55100573012 /* Preview Content */,
+				F2D5AE9E2580206000EC85FA /* Localizable.strings */,
 			);
 			path = "AI-Insurance";
 			sourceTree = "<group>";
@@ -128,6 +136,14 @@
 				F27627B9257FF55100573012 /* Info.plist */,
 			);
 			path = "AI-InsuranceUITests";
+			sourceTree = "<group>";
+		};
+		F27627D725800E0700573012 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				F27627D825800E2700573012 /* LoginView.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +231,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
+				uk,
 			);
 			mainGroup = F276278E257FF55000573012;
 			productRefGroup = F2762798257FF55000573012 /* Products */;
@@ -234,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F27627A2257FF55100573012 /* Preview Assets.xcassets in Resources */,
+				F2D5AE9C2580206000EC85FA /* Localizable.strings in Resources */,
 				F276279F257FF55100573012 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27627D925800E2700573012 /* LoginView.swift in Sources */,
 				F276279D257FF55000573012 /* ContentView.swift in Sources */,
 				F276279B257FF55000573012 /* AI_InsuranceApp.swift in Sources */,
 			);
@@ -295,11 +315,25 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		F2D5AE9E2580206000EC85FA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2D5AE9D2580206000EC85FA /* en */,
+				F2D5AEA8258022F700EC85FA /* ru */,
+				F2D5AEAC2580230300EC85FA /* uk */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		F27627BA257FF55100573012 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -361,6 +395,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -419,6 +454,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AI-Insurance/Preview Content\"";
+				DEVELOPMENT_TEAM = 7P38U46B8X;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "AI-Insurance/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -440,6 +476,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AI-Insurance/Preview Content\"";
+				DEVELOPMENT_TEAM = 7P38U46B8X;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "AI-Insurance/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  AI-Insurance
+
+  Created by Misha Beliy on 08.12.2020.
+  
+*/
+
+"loginTitle" = "Sign in";
+"Username" = "Username";

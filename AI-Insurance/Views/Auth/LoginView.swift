@@ -7,56 +7,67 @@
 
 import SwiftUI
 
+import Alamofire
+
+let defaults = UserDefaults.standard;
+
 let lightGreyColor = Color(red: 239.0/255.0, green: 243.0/255.0, blue: 244.0/255.0)
 
-let storedUsername = "test"
-let storedpassword = "test"
+
+let apiClient = AuthAPI();
 
 struct LoginView: View {
   
   @State var username: String = ""
   @State var password: String = ""
   
-  @State var authenticationDidFail: Bool = false
-  @State var authenticationDidSucceed: Bool = false
+  @State var error: String? = nil
+  @State var isLoading = false;
+  @State var authenticationDidSucceed = false;
   
   var body: some View {
     
     ZStack {
-      //      Color.white.ignoresSafeArea(.all)
+      if self.isLoading {
+        ProgressView()
+      }
       VStack {
-        HelloText()
+        SignInTextView()
         UserImage()
         UsernameTextField(username: $username)
         PasswordSecureField(password: $password)
-        if authenticationDidFail {
-          Text("Information not correct. Try again.")
+        if let errorString = error {
+          Text(errorString)
             .offset(y: -10)
             .foregroundColor(.red)
+            .lineLimit(nil)
         }
         
-        
-        
         Button(action: {
-          if self.username == storedUsername && self.password == storedpassword {
-            self.authenticationDidSucceed = true
-            self.authenticationDidFail = false
-          } else {
-            self.authenticationDidFail = true
-            self.authenticationDidSucceed = false
-          }
-          debugPrint(self.username)
+          self.isLoading = true;
+          apiClient.login(self.username, self.password, success: { respose in
+            debugPrint(respose)
+            self.authenticationDidSucceed = true;
+            self.error = nil;
+          }, fail: {error in
+            debugPrint(error)
+            self.error = error
+          }, final: {
+            sleep(2)
+            self.isLoading = false;
+          })
         }) {
-          LoginButtonContent()
-        }.cornerRadius(10.0)
+          LoginButtonContentView()
+        }.cornerRadius(3.0)
       }
-      
       .padding()
+      .disabled(self.isLoading)
+      .blur(radius: self.isLoading ? 10:0)
       if authenticationDidSucceed {
         Text("Login succeeded!")
           .font(.headline)
           .frame(width: 250, height: 80)
-          .background(Color.yellow)
+          .background(Color.blue)
           .cornerRadius(20.0)
           .animation(Animation.default)
       }
@@ -70,23 +81,11 @@ struct LoginView_Previews: PreviewProvider {
   }
 }
 
-
-
-struct HelloText: View {
-  var body: some View {
-    Text("loginTitle")
-      .font(.largeTitle)
-      .fontWeight(.semibold)
-      .padding(.bottom, 20)
-  }
-}
-
 struct UserImage: View {
   var body: some View {
     Image("InsuranceLogo")
       .resizable()
       .aspectRatio(contentMode: .fill)
-      //      .background(Color.white)
       .frame(width: 150, height: 150)
       .clipped()
       .cornerRadius(150)
@@ -94,16 +93,6 @@ struct UserImage: View {
   }
 }
 
-struct LoginButtonContent: View {
-  var body: some View {
-    Text("loginTitle")
-      .font(.headline)
-      .foregroundColor(lightGreyColor)
-      .padding()
-      .frame(width: 300, height: 60)
-      .background(Color(red: 23 / 255.0, green: 36 / 255.0, blue: 157 / 255.0))
-  }
-}
 
 struct UsernameTextField: View {
   
@@ -115,6 +104,7 @@ struct UsernameTextField: View {
       .border(Color.blue, width: 3)
       .cornerRadius(5.0)
       .padding(.bottom, 20)
+      .autocapitalization(.none)
   }
 }
 
@@ -128,5 +118,6 @@ struct PasswordSecureField: View {
       .border(Color.blue, width: 3)
       .cornerRadius(5.0)
       .padding(.bottom, 20)
+      .autocapitalization(.none)
   }
 }

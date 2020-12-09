@@ -9,3 +9,4 @@
 "loginTitle" = "Увійти";
 "usernameString" = "Логін";
 "passwordString" = "Пароль";
+"No active account found with the given credentials" = "Не знайдено жодного активного облікового запису із зазначеними обліковими даними";

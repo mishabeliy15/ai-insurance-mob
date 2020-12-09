@@ -3,10 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		634CCFF79A02FC2140845B3F /* Pods_AI_InsuranceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8CCDD12DB4334BECF61256 /* Pods_AI_InsuranceTests.framework */; };
+		63DAF5BD13EAADE5BEFE87CE /* Pods_AI_Insurance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A905927CEBBF937A4344CCC8 /* Pods_AI_Insurance.framework */; };
+		753D3CB45F934FE2646A1651 /* Pods_AI_Insurance_AI_InsuranceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3D6C38CBC88795668959EB /* Pods_AI_Insurance_AI_InsuranceUITests.framework */; };
+		F23D845F25810CB70002C5D7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D845E25810CB70002C5D7 /* Constants.swift */; };
+		F23D846425810EA40002C5D7 /* AuthAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D846325810EA40002C5D7 /* AuthAPI.swift */; };
+		F23D847025811A8F0002C5D7 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D846F25811A8F0002C5D7 /* AuthModel.swift */; };
+		F23D847C25813F0F0002C5D7 /* BaseAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D847B25813F0F0002C5D7 /* BaseAPIManager.swift */; };
+		F23D848A258153870002C5D7 /* LoginButtonContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D8489258153870002C5D7 /* LoginButtonContentView.swift */; };
+		F23D8495258154DB0002C5D7 /* SignInTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D8494258154DB0002C5D7 /* SignInTextView.swift */; };
 		F276279B257FF55000573012 /* AI_InsuranceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F276279A257FF55000573012 /* AI_InsuranceApp.swift */; };
 		F276279D257FF55000573012 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F276279C257FF55000573012 /* ContentView.swift */; };
 		F276279F257FF55100573012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F276279E257FF55100573012 /* Assets.xcassets */; };
@@ -35,6 +44,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A3D6C38CBC88795668959EB /* Pods_AI_Insurance_AI_InsuranceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AI_Insurance_AI_InsuranceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3368184135C46FA4EDC73AD0 /* Pods-AI-Insurance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AI-Insurance.release.xcconfig"; path = "Target Support Files/Pods-AI-Insurance/Pods-AI-Insurance.release.xcconfig"; sourceTree = "<group>"; };
+		37716AF07E7A82F436F93218 /* Pods-AI-Insurance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AI-Insurance.debug.xcconfig"; path = "Target Support Files/Pods-AI-Insurance/Pods-AI-Insurance.debug.xcconfig"; sourceTree = "<group>"; };
+		3C95D40E8D77B442E5A43416 /* Pods-AI-Insurance-AI-InsuranceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AI-Insurance-AI-InsuranceUITests.debug.xcconfig"; path = "Target Support Files/Pods-AI-Insurance-AI-InsuranceUITests/Pods-AI-Insurance-AI-InsuranceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EB4E8DAC4B7B57844675518 /* Pods-AI-InsuranceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AI-InsuranceTests.debug.xcconfig"; path = "Target Support Files/Pods-AI-InsuranceTests/Pods-AI-InsuranceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A905927CEBBF937A4344CCC8 /* Pods_AI_Insurance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AI_Insurance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35EB819ABE5F8C17540F319 /* Pods-AI-Insurance-AI-InsuranceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AI-Insurance-AI-InsuranceUITests.release.xcconfig"; path = "Target Support Files/Pods-AI-Insurance-AI-InsuranceUITests/Pods-AI-Insurance-AI-InsuranceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DD8CCDD12DB4334BECF61256 /* Pods_AI_InsuranceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AI_InsuranceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23D845E25810CB70002C5D7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F23D846325810EA40002C5D7 /* AuthAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAPI.swift; sourceTree = "<group>"; };
+		F23D846F25811A8F0002C5D7 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
+		F23D847B25813F0F0002C5D7 /* BaseAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPIManager.swift; sourceTree = "<group>"; };
+		F23D8489258153870002C5D7 /* LoginButtonContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonContentView.swift; sourceTree = "<group>"; };
+		F23D8494258154DB0002C5D7 /* SignInTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInTextView.swift; sourceTree = "<group>"; };
 		F2762797257FF55000573012 /* AI-Insurance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI-Insurance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F276279A257FF55000573012 /* AI_InsuranceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_InsuranceApp.swift; sourceTree = "<group>"; };
 		F276279C257FF55000573012 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +74,7 @@
 		F2D5AE9D2580206000EC85FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F2D5AEA8258022F700EC85FA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F2D5AEAC2580230300EC85FA /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F930FC6EE1AE00EF11C690F3 /* Pods-AI-InsuranceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AI-InsuranceTests.release.xcconfig"; path = "Target Support Files/Pods-AI-InsuranceTests/Pods-AI-InsuranceTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63DAF5BD13EAADE5BEFE87CE /* Pods_AI_Insurance.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634CCFF79A02FC2140845B3F /* Pods_AI_InsuranceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +98,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				753D3CB45F934FE2646A1651 /* Pods_AI_Insurance_AI_InsuranceUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD8F28E45E33BD894698255E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A905927CEBBF937A4344CCC8 /* Pods_AI_Insurance.framework */,
+				1A3D6C38CBC88795668959EB /* Pods_AI_Insurance_AI_InsuranceUITests.framework */,
+				DD8CCDD12DB4334BECF61256 /* Pods_AI_InsuranceTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1317D84966EDA982D23804C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37716AF07E7A82F436F93218 /* Pods-AI-Insurance.debug.xcconfig */,
+				3368184135C46FA4EDC73AD0 /* Pods-AI-Insurance.release.xcconfig */,
+				3C95D40E8D77B442E5A43416 /* Pods-AI-Insurance-AI-InsuranceUITests.debug.xcconfig */,
+				B35EB819ABE5F8C17540F319 /* Pods-AI-Insurance-AI-InsuranceUITests.release.xcconfig */,
+				5EB4E8DAC4B7B57844675518 /* Pods-AI-InsuranceTests.debug.xcconfig */,
+				F930FC6EE1AE00EF11C690F3 /* Pods-AI-InsuranceTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F23D845D25810C360002C5D7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F23D845E25810CB70002C5D7 /* Constants.swift */,
+				F23D846325810EA40002C5D7 /* AuthAPI.swift */,
+				F23D847B25813F0F0002C5D7 /* BaseAPIManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F23D846825810EAB0002C5D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F23D846F25811A8F0002C5D7 /* AuthModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F23D84882581535F0002C5D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F27627D725800E0700573012 /* Auth */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F276278E257FF55000573012 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +161,8 @@
 				F27627AB257FF55100573012 /* AI-InsuranceTests */,
 				F27627B6257FF55100573012 /* AI-InsuranceUITests */,
 				F2762798257FF55000573012 /* Products */,
+				E1317D84966EDA982D23804C /* Pods */,
+				DD8F28E45E33BD894698255E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +179,9 @@
 		F2762799257FF55000573012 /* AI-Insurance */ = {
 			isa = PBXGroup;
 			children = (
-				F27627D725800E0700573012 /* Auth */,
+				F23D84882581535F0002C5D7 /* Views */,
+				F23D846825810EAB0002C5D7 /* Models */,
+				F23D845D25810C360002C5D7 /* Networking */,
 				F276279A257FF55000573012 /* AI_InsuranceApp.swift */,
 				F276279C257FF55000573012 /* ContentView.swift */,
 				F276279E257FF55100573012 /* Assets.xcassets */,
@@ -142,6 +222,8 @@
 			isa = PBXGroup;
 			children = (
 				F27627D825800E2700573012 /* LoginView.swift */,
+				F23D8489258153870002C5D7 /* LoginButtonContentView.swift */,
+				F23D8494258154DB0002C5D7 /* SignInTextView.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -153,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F27627BC257FF55100573012 /* Build configuration list for PBXNativeTarget "AI-Insurance" */;
 			buildPhases = (
+				A922D76B9E8D870BBE2A427F /* [CP] Check Pods Manifest.lock */,
 				F2762793257FF55000573012 /* Sources */,
 				F2762794257FF55000573012 /* Frameworks */,
 				F2762795257FF55000573012 /* Resources */,
+				744DBD7D57A8E366A713FDF3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F27627BF257FF55100573012 /* Build configuration list for PBXNativeTarget "AI-InsuranceTests" */;
 			buildPhases = (
+				DC4C3FDFA551FFD0CF247A71 /* [CP] Check Pods Manifest.lock */,
 				F27627A4257FF55100573012 /* Sources */,
 				F27627A5257FF55100573012 /* Frameworks */,
 				F27627A6257FF55100573012 /* Resources */,
@@ -188,9 +273,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F27627C2257FF55100573012 /* Build configuration list for PBXNativeTarget "AI-InsuranceUITests" */;
 			buildPhases = (
+				769017D4D73BFB9E4C6FEDCE /* [CP] Check Pods Manifest.lock */,
 				F27627AF257FF55100573012 /* Sources */,
 				F27627B0257FF55100573012 /* Frameworks */,
 				F27627B1257FF55100573012 /* Resources */,
+				9E5964627E9294B4DCA028EF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -273,14 +360,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		744DBD7D57A8E366A713FDF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AI-Insurance/Pods-AI-Insurance-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AI-Insurance/Pods-AI-Insurance-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AI-Insurance/Pods-AI-Insurance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		769017D4D73BFB9E4C6FEDCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AI-Insurance-AI-InsuranceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E5964627E9294B4DCA028EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AI-Insurance-AI-InsuranceUITests/Pods-AI-Insurance-AI-InsuranceUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AI-Insurance-AI-InsuranceUITests/Pods-AI-Insurance-AI-InsuranceUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AI-Insurance-AI-InsuranceUITests/Pods-AI-Insurance-AI-InsuranceUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A922D76B9E8D870BBE2A427F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AI-Insurance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC4C3FDFA551FFD0CF247A71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AI-InsuranceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F2762793257FF55000573012 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F23D848A258153870002C5D7 /* LoginButtonContentView.swift in Sources */,
+				F23D847C25813F0F0002C5D7 /* BaseAPIManager.swift in Sources */,
 				F27627D925800E2700573012 /* LoginView.swift in Sources */,
 				F276279D257FF55000573012 /* ContentView.swift in Sources */,
 				F276279B257FF55000573012 /* AI_InsuranceApp.swift in Sources */,
+				F23D8495258154DB0002C5D7 /* SignInTextView.swift in Sources */,
+				F23D845F25810CB70002C5D7 /* Constants.swift in Sources */,
+				F23D846425810EA40002C5D7 /* AuthAPI.swift in Sources */,
+				F23D847025811A8F0002C5D7 /* AuthModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +645,7 @@
 		};
 		F27627BD257FF55100573012 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37716AF07E7A82F436F93218 /* Pods-AI-Insurance.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +668,7 @@
 		};
 		F27627BE257FF55100573012 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3368184135C46FA4EDC73AD0 /* Pods-AI-Insurance.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -493,6 +691,7 @@
 		};
 		F27627C0257FF55100573012 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EB4E8DAC4B7B57844675518 /* Pods-AI-InsuranceTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +713,7 @@
 		};
 		F27627C1257FF55100573012 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F930FC6EE1AE00EF11C690F3 /* Pods-AI-InsuranceTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -535,6 +735,7 @@
 		};
 		F27627C3257FF55100573012 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C95D40E8D77B442E5A43416 /* Pods-AI-Insurance-AI-InsuranceUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -554,6 +755,7 @@
 		};
 		F27627C4257FF55100573012 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B35EB819ABE5F8C17540F319 /* Pods-AI-Insurance-AI-InsuranceUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

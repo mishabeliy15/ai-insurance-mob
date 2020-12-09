@@ -7,4 +7,6 @@
 */
 
 "loginTitle" = "Sign in";
-"Username" = "Username";
+"usernameString" = "Username";
+"passwordString" = "Password";
+"No active account found with the given credentials" = "No active account found with the given credentials";

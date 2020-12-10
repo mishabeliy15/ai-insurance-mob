@@ -9,24 +9,21 @@ import SwiftUI
 
 import Alamofire
 
-let defaults = UserDefaults.standard;
-
 let lightGreyColor = Color(red: 239.0/255.0, green: 243.0/255.0, blue: 244.0/255.0)
 
 
-let apiClient = AuthAPI();
 
 struct LoginView: View {
+  let apiClient = AuthAPIManager()
   
   @State var username: String = ""
   @State var password: String = ""
   
   @State var error: String? = nil
-  @State var isLoading = false;
-  @State var authenticationDidSucceed = false;
+  @State var isLoading = false
+  @State var authenticationDidSucceed = false
   
   var body: some View {
-    
     ZStack {
       if self.isLoading {
         ProgressView()
@@ -45,7 +42,7 @@ struct LoginView: View {
         
         Button(action: {
           self.isLoading = true;
-          apiClient.login(self.username, self.password, success: { respose in
+          self.apiClient.login(self.username, self.password, success: { respose in
             debugPrint(respose)
             self.authenticationDidSucceed = true;
             self.error = nil;

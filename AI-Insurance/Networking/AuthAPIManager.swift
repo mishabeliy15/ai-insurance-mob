@@ -9,26 +9,9 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-class AuthAPI {
+
+class AuthAPIManager: BaseAPIManager {
   static let LOGIN_API_URL = "\(Config.BASE_API_URL)auth/jwt/create/"
-  
-  var currentLanguage: String {
-    return Locale.current.languageCode!
-  }
-  
-  var header: HTTPHeaders {
-    return [
-      "Accept": "application/json",
-      "Accept-Language": currentLanguage
-    ]
-  }
-  
-  func getDetailError(_ data: Data?) -> String? {
-    if data != nil, let json = try? JSON(data: data!) {
-      return json["detail"].string
-    }
-    return nil
-  }
   
   func login(_ username: String,
              _ password: String,
@@ -36,12 +19,14 @@ class AuthAPI {
              fail failCallback: @escaping (String) -> Void,
              final finalCallback: Optional<() -> Void> = nil) {
     let loginPrams = LoginRequestData(username: username, password: password)
-    AF.request(AuthAPI.LOGIN_API_URL, method: .post, parameters: loginPrams)
+    AF.request(AuthAPIManager.LOGIN_API_URL, method: .post, parameters: loginPrams)
       .validate()
       .responseDecodable(of: LoginSuccesResponseData.self){ response in
         switch response.result {
         case .success(let value):
           debugPrint(value)
+          localStorage.set(value.access, forKey: defaultsKeys.accessToken)
+          localStorage.set(value.refresh, forKey: defaultsKeys.refreshToken)
           successCallback(value)
         case .failure(let error):
           debugPrint(error)

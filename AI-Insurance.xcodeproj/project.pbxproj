@@ -11,11 +11,12 @@
 		63DAF5BD13EAADE5BEFE87CE /* Pods_AI_Insurance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A905927CEBBF937A4344CCC8 /* Pods_AI_Insurance.framework */; };
 		753D3CB45F934FE2646A1651 /* Pods_AI_Insurance_AI_InsuranceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3D6C38CBC88795668959EB /* Pods_AI_Insurance_AI_InsuranceUITests.framework */; };
 		F23D845F25810CB70002C5D7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D845E25810CB70002C5D7 /* Constants.swift */; };
-		F23D846425810EA40002C5D7 /* AuthAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D846325810EA40002C5D7 /* AuthAPI.swift */; };
+		F23D846425810EA40002C5D7 /* AuthAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D846325810EA40002C5D7 /* AuthAPIManager.swift */; };
 		F23D847025811A8F0002C5D7 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D846F25811A8F0002C5D7 /* AuthModel.swift */; };
 		F23D847C25813F0F0002C5D7 /* BaseAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D847B25813F0F0002C5D7 /* BaseAPIManager.swift */; };
 		F23D848A258153870002C5D7 /* LoginButtonContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D8489258153870002C5D7 /* LoginButtonContentView.swift */; };
 		F23D8495258154DB0002C5D7 /* SignInTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D8494258154DB0002C5D7 /* SignInTextView.swift */; };
+		F23D849A2581581F0002C5D7 /* localStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D84992581581F0002C5D7 /* localStorage.swift */; };
 		F276279B257FF55000573012 /* AI_InsuranceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F276279A257FF55000573012 /* AI_InsuranceApp.swift */; };
 		F276279D257FF55000573012 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F276279C257FF55000573012 /* ContentView.swift */; };
 		F276279F257FF55100573012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F276279E257FF55100573012 /* Assets.xcassets */; };
@@ -53,11 +54,12 @@
 		B35EB819ABE5F8C17540F319 /* Pods-AI-Insurance-AI-InsuranceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AI-Insurance-AI-InsuranceUITests.release.xcconfig"; path = "Target Support Files/Pods-AI-Insurance-AI-InsuranceUITests/Pods-AI-Insurance-AI-InsuranceUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DD8CCDD12DB4334BECF61256 /* Pods_AI_InsuranceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AI_InsuranceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F23D845E25810CB70002C5D7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		F23D846325810EA40002C5D7 /* AuthAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAPI.swift; sourceTree = "<group>"; };
+		F23D846325810EA40002C5D7 /* AuthAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAPIManager.swift; sourceTree = "<group>"; };
 		F23D846F25811A8F0002C5D7 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
 		F23D847B25813F0F0002C5D7 /* BaseAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPIManager.swift; sourceTree = "<group>"; };
 		F23D8489258153870002C5D7 /* LoginButtonContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonContentView.swift; sourceTree = "<group>"; };
 		F23D8494258154DB0002C5D7 /* SignInTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInTextView.swift; sourceTree = "<group>"; };
+		F23D84992581581F0002C5D7 /* localStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = localStorage.swift; sourceTree = "<group>"; };
 		F2762797257FF55000573012 /* AI-Insurance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI-Insurance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F276279A257FF55000573012 /* AI_InsuranceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_InsuranceApp.swift; sourceTree = "<group>"; };
 		F276279C257FF55000573012 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -132,7 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				F23D845E25810CB70002C5D7 /* Constants.swift */,
-				F23D846325810EA40002C5D7 /* AuthAPI.swift */,
+				F23D846325810EA40002C5D7 /* AuthAPIManager.swift */,
 				F23D847B25813F0F0002C5D7 /* BaseAPIManager.swift */,
 			);
 			path = Networking;
@@ -188,6 +190,7 @@
 				F27627A3257FF55100573012 /* Info.plist */,
 				F27627A0257FF55100573012 /* Preview Content */,
 				F2D5AE9E2580206000EC85FA /* Localizable.strings */,
+				F23D84992581581F0002C5D7 /* localStorage.swift */,
 			);
 			path = "AI-Insurance";
 			sourceTree = "<group>";
@@ -469,13 +472,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F23D848A258153870002C5D7 /* LoginButtonContentView.swift in Sources */,
+				F23D849A2581581F0002C5D7 /* localStorage.swift in Sources */,
 				F23D847C25813F0F0002C5D7 /* BaseAPIManager.swift in Sources */,
 				F27627D925800E2700573012 /* LoginView.swift in Sources */,
 				F276279D257FF55000573012 /* ContentView.swift in Sources */,
 				F276279B257FF55000573012 /* AI_InsuranceApp.swift in Sources */,
 				F23D8495258154DB0002C5D7 /* SignInTextView.swift in Sources */,
 				F23D845F25810CB70002C5D7 /* Constants.swift in Sources */,
-				F23D846425810EA40002C5D7 /* AuthAPI.swift in Sources */,
+				F23D846425810EA40002C5D7 /* AuthAPIManager.swift in Sources */,
 				F23D847025811A8F0002C5D7 /* AuthModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -23,6 +23,8 @@ struct LoginView: View {
   @State var isLoading = false
   @State var authenticationDidSucceed = false
   
+  @ObservedObject var auth: IsAuthorized
+  
   var body: some View {
     ZStack {
       if self.isLoading {
@@ -46,11 +48,11 @@ struct LoginView: View {
             debugPrint(respose)
             self.authenticationDidSucceed = true;
             self.error = nil;
+            self.auth.isAuthorized = true
           }, fail: {error in
             debugPrint(error)
             self.error = error
           }, final: {
-            sleep(2)
             self.isLoading = false;
           })
         }) {
@@ -72,11 +74,27 @@ struct LoginView: View {
   }
 }
 
-struct LoginView_Previews: PreviewProvider {
-  static var previews: some View {
-    LoginView()
-  }
+struct StatefulPreviewWrapper<Value, Content: View>: View {
+    @State var value: Value
+    var content: (Binding<Value>) -> Content
+
+    var body: some View {
+        content($value)
+    }
+
+    init(_ value: Value, content: @escaping (Binding<Value>) -> Content) {
+        self._value = State(wrappedValue: value)
+        self.content = content
+    }
 }
+
+//struct LoginView_Previews: PreviewProvider {
+//  static var previews: some View {
+//    StatefulPreviewWrapper(IsAuthorized) {
+//      LoginView(auth: $0)
+//    }
+//  }
+//}
 
 struct UserImage: View {
   var body: some View {

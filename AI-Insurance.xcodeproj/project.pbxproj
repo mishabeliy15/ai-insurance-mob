@@ -24,7 +24,15 @@
 		F27627AD257FF55100573012 /* AI_InsuranceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27627AC257FF55100573012 /* AI_InsuranceTests.swift */; };
 		F27627B8257FF55100573012 /* AI_InsuranceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27627B7257FF55100573012 /* AI_InsuranceUITests.swift */; };
 		F27627D925800E2700573012 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27627D825800E2700573012 /* LoginView.swift */; };
+		F2BA64E0258693E100141E2A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA64DF258693E100141E2A /* MainView.swift */; };
+		F2BA64E5258694CD00141E2A /* IsAuthorized.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA64E4258694CD00141E2A /* IsAuthorized.swift */; };
 		F2D5AE9C2580206000EC85FA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2D5AE9E2580206000EC85FA /* Localizable.strings */; };
+		F2EA68BF258659C100CA8330 /* Pages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EA68BE258659C100CA8330 /* Pages.swift */; };
+		F2EA68C425865D2700CA8330 /* FetchCompanyPrices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EA68C325865D2700CA8330 /* FetchCompanyPrices.swift */; };
+		F2EA68CE2586682600CA8330 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EA68CD2586682600CA8330 /* RemoteImage.swift */; };
+		F2FE4A3F25826A0000EA8F86 /* CompanyAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE4A3E25826A0000EA8F86 /* CompanyAPIManager.swift */; };
+		F2FE4A4425826A1D00EA8F86 /* CompanyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE4A4325826A1D00EA8F86 /* CompanyModels.swift */; };
+		F2FE4A4A25827C2200EA8F86 /* BestPricesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE4A4925827C2200EA8F86 /* BestPricesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,9 +81,17 @@
 		F27627B7257FF55100573012 /* AI_InsuranceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_InsuranceUITests.swift; sourceTree = "<group>"; };
 		F27627B9257FF55100573012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F27627D825800E2700573012 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F2BA64DF258693E100141E2A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F2BA64E4258694CD00141E2A /* IsAuthorized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsAuthorized.swift; sourceTree = "<group>"; };
 		F2D5AE9D2580206000EC85FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F2D5AEA8258022F700EC85FA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F2D5AEAC2580230300EC85FA /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2EA68BE258659C100CA8330 /* Pages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pages.swift; sourceTree = "<group>"; };
+		F2EA68C325865D2700CA8330 /* FetchCompanyPrices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchCompanyPrices.swift; sourceTree = "<group>"; };
+		F2EA68CD2586682600CA8330 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		F2FE4A3E25826A0000EA8F86 /* CompanyAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyAPIManager.swift; sourceTree = "<group>"; };
+		F2FE4A4325826A1D00EA8F86 /* CompanyModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyModels.swift; sourceTree = "<group>"; };
+		F2FE4A4925827C2200EA8F86 /* BestPricesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestPricesView.swift; sourceTree = "<group>"; };
 		F930FC6EE1AE00EF11C690F3 /* Pods-AI-InsuranceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AI-InsuranceTests.release.xcconfig"; path = "Target Support Files/Pods-AI-InsuranceTests/Pods-AI-InsuranceTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,6 +152,8 @@
 				F23D845E25810CB70002C5D7 /* Constants.swift */,
 				F23D846325810EA40002C5D7 /* AuthAPIManager.swift */,
 				F23D847B25813F0F0002C5D7 /* BaseAPIManager.swift */,
+				F2FE4A3E25826A0000EA8F86 /* CompanyAPIManager.swift */,
+				F2BA64E4258694CD00141E2A /* IsAuthorized.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -144,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				F23D846F25811A8F0002C5D7 /* AuthModel.swift */,
+				F2FE4A4325826A1D00EA8F86 /* CompanyModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -151,7 +170,11 @@
 		F23D84882581535F0002C5D7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F2FE4A4825827B9E00EA8F86 /* Company */,
 				F27627D725800E0700573012 /* Auth */,
+				F2EA68BE258659C100CA8330 /* Pages.swift */,
+				F2EA68CD2586682600CA8330 /* RemoteImage.swift */,
+				F2BA64DF258693E100141E2A /* MainView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -229,6 +252,15 @@
 				F23D8494258154DB0002C5D7 /* SignInTextView.swift */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		F2FE4A4825827B9E00EA8F86 /* Company */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE4A4925827C2200EA8F86 /* BestPricesView.swift */,
+				F2EA68C325865D2700CA8330 /* FetchCompanyPrices.swift */,
+			);
+			path = Company;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -472,13 +504,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				F23D848A258153870002C5D7 /* LoginButtonContentView.swift in Sources */,
+				F2FE4A4A25827C2200EA8F86 /* BestPricesView.swift in Sources */,
+				F2FE4A4425826A1D00EA8F86 /* CompanyModels.swift in Sources */,
+				F2EA68C425865D2700CA8330 /* FetchCompanyPrices.swift in Sources */,
 				F23D849A2581581F0002C5D7 /* localStorage.swift in Sources */,
+				F2EA68CE2586682600CA8330 /* RemoteImage.swift in Sources */,
+				F2EA68BF258659C100CA8330 /* Pages.swift in Sources */,
 				F23D847C25813F0F0002C5D7 /* BaseAPIManager.swift in Sources */,
 				F27627D925800E2700573012 /* LoginView.swift in Sources */,
 				F276279D257FF55000573012 /* ContentView.swift in Sources */,
 				F276279B257FF55000573012 /* AI_InsuranceApp.swift in Sources */,
+				F2BA64E0258693E100141E2A /* MainView.swift in Sources */,
 				F23D8495258154DB0002C5D7 /* SignInTextView.swift in Sources */,
+				F2BA64E5258694CD00141E2A /* IsAuthorized.swift in Sources */,
 				F23D845F25810CB70002C5D7 /* Constants.swift in Sources */,
+				F2FE4A3F25826A0000EA8F86 /* CompanyAPIManager.swift in Sources */,
 				F23D846425810EA40002C5D7 /* AuthAPIManager.swift in Sources */,
 				F23D847025811A8F0002C5D7 /* AuthModel.swift in Sources */,
 			);

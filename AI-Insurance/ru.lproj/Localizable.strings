@@ -10,3 +10,4 @@
 "usernameString" = "Логин";
 "passwordString" = "Пароль";
 "No active account found with the given credentials" = "Активная учетная запись с указанными учетными данными не найдена";
+"Personal price:" = "Персональная цена:";

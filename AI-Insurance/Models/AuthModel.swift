@@ -17,3 +17,7 @@ struct LoginSuccesResponseData: Codable {
   var access: String
   var refresh: String
 }
+
+struct VerifyTokenRequestData: Codable {
+  var token: String
+}

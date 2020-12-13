@@ -45,7 +45,7 @@ class AuthAPIManager: BaseAPIManager {
                    fail failCallback: @escaping () -> Void,
                    final finalCallback: Optional<() -> Void> = nil) {
     let params = VerifyTokenRequestData(token: token)
-    AF.request(AuthAPIManager.LOGIN_API_URL, method: .post, parameters: params)
+    AF.request(AuthAPIManager.VERIFY_API_RUL, method: .post, parameters: params)
       .validate()
       .response(){ response in
         switch response.result {

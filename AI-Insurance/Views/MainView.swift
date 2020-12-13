@@ -12,9 +12,14 @@ struct MainView: View {
     TabView {
       BestPricesView()
       .tabItem {
-        Image(systemName: "phone.fill")
-        Text("First Tab")
+        Image(systemName: "plus.square.on.square")
+        Text("Companies")
       }
+      Text("Second View!!!")
+        .tabItem {
+          Image(systemName: "barcode.viewfinder")
+          Text("Add Sensor")
+        }
     }
   }
   

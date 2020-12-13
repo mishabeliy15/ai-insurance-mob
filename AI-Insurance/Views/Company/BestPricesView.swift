@@ -11,10 +11,13 @@ struct BestPricesView: View {
   @ObservedObject var fetchCompanyPrices = FetchCompanyPrices()
   
   var body: some View {
-    VStack {
+    NavigationView {
       List(fetchCompanyPrices.companies) { company in
-        CompanyPriceCard(company: company)
+        NavigationLink(destination: DetailPriceView(company: company)) {
+          CompanyPriceCard(company: company)
+        }
       }
+      .navigationBarTitle("Companies")
     }
   }
 }
@@ -42,32 +45,15 @@ struct CompanyPriceCard: View {
         Text(company.name).bold().font(.title)
       }
       HStack {
-        Text("Personal price:")
+        Text("Personal price")
         Spacer()
         Text("\(NSString(format: "%.2f", company.ownPrice))")
-        Button(action: {
-          detail = !detail
-        }) {
-          Image(systemName: "questionmark.circle")
-            .resizable()
-            .scaledToFit()
-            .aspectRatio(contentMode: .fit)
-            .frame(height:25)
-        }
+        Image(systemName: "questionmark.circle")
+          .resizable()
+          .scaledToFit()
+          .aspectRatio(contentMode: .fit)
+          .frame(height:25)
       }
     }
   }
 }
-
-//struct DetailPriceText: View {
-//  var title: String
-//  var value: Float
-//
-//  var body: some View {
-//    HStack {
-//      Text(title)
-//      Spacer()
-//      Text("\(NSString(format: "%.2f", value))")
-//    }
-//  }
-//}

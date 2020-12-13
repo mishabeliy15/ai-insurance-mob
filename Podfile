@@ -8,6 +8,7 @@ target 'AI-Insurance' do
   # Pods for AI-Insurance
   pod 'Alamofire', '~> 5.2'
   pod 'SwiftyJSON', '~> 4.0'
+  pod 'SwiftDate', '~> 5.0'
 
   target 'AI-InsuranceTests' do
     inherit! :search_paths

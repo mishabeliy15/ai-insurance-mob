@@ -30,4 +30,7 @@
 "Added sensor:" = "Добавлен датчик:";
 "Movement" = "Передвижения";
 "Camera" = "Камера";
-"My Sensors" = "Мои Датчики";
+"Sensors" = "Датчики";
+"Contracts" = "Контракты";
+"End date" = "Действителен до";
+"Start date" = "Дата начала";

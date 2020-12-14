@@ -47,7 +47,7 @@ struct CompanyPriceCard: View {
       HStack {
         Text("Personal price")
         Spacer()
-        Text("\(NSString(format: "%.2f", company.ownPrice))")
+        Text("\(NSString(format: "%.2f", company.ownPrice)) $")
         Image(systemName: "questionmark.circle")
           .resizable()
           .scaledToFit()

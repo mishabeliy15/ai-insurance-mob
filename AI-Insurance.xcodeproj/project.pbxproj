@@ -11,6 +11,10 @@
 		63DAF5BD13EAADE5BEFE87CE /* Pods_AI_Insurance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A905927CEBBF937A4344CCC8 /* Pods_AI_Insurance.framework */; };
 		753D3CB45F934FE2646A1651 /* Pods_AI_Insurance_AI_InsuranceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3D6C38CBC88795668959EB /* Pods_AI_Insurance_AI_InsuranceUITests.framework */; };
 		F22B86BB2587FC700071ADF2 /* MySensorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B86BA2587FC700071ADF2 /* MySensorView.swift */; };
+		F22B86C725880B550071ADF2 /* MyContractsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B86C625880B550071ADF2 /* MyContractsView.swift */; };
+		F22B86CC25880EBD0071ADF2 /* ContractAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B86CB25880EBD0071ADF2 /* ContractAPIManager.swift */; };
+		F22B86D125881A420071ADF2 /* FetchMyContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B86D025881A420071ADF2 /* FetchMyContracts.swift */; };
+		F22B86D625881A740071ADF2 /* ContractCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B86D525881A740071ADF2 /* ContractCard.swift */; };
 		F23D845F25810CB70002C5D7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D845E25810CB70002C5D7 /* Constants.swift */; };
 		F23D846425810EA40002C5D7 /* AuthAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D846325810EA40002C5D7 /* AuthAPIManager.swift */; };
 		F23D847025811A8F0002C5D7 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D846F25811A8F0002C5D7 /* AuthModel.swift */; };
@@ -68,6 +72,10 @@
 		B35EB819ABE5F8C17540F319 /* Pods-AI-Insurance-AI-InsuranceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AI-Insurance-AI-InsuranceUITests.release.xcconfig"; path = "Target Support Files/Pods-AI-Insurance-AI-InsuranceUITests/Pods-AI-Insurance-AI-InsuranceUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DD8CCDD12DB4334BECF61256 /* Pods_AI_InsuranceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AI_InsuranceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F22B86BA2587FC700071ADF2 /* MySensorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySensorView.swift; sourceTree = "<group>"; };
+		F22B86C625880B550071ADF2 /* MyContractsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyContractsView.swift; sourceTree = "<group>"; };
+		F22B86CB25880EBD0071ADF2 /* ContractAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractAPIManager.swift; sourceTree = "<group>"; };
+		F22B86D025881A420071ADF2 /* FetchMyContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchMyContracts.swift; sourceTree = "<group>"; };
+		F22B86D525881A740071ADF2 /* ContractCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractCard.swift; sourceTree = "<group>"; };
 		F23D845E25810CB70002C5D7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F23D846325810EA40002C5D7 /* AuthAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAPIManager.swift; sourceTree = "<group>"; };
 		F23D846F25811A8F0002C5D7 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
@@ -158,6 +166,16 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		F22B86C525880B3F0071ADF2 /* Contracts */ = {
+			isa = PBXGroup;
+			children = (
+				F22B86C625880B550071ADF2 /* MyContractsView.swift */,
+				F22B86D025881A420071ADF2 /* FetchMyContracts.swift */,
+				F22B86D525881A740071ADF2 /* ContractCard.swift */,
+			);
+			path = Contracts;
+			sourceTree = "<group>";
+		};
 		F23D845D25810C360002C5D7 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +185,7 @@
 				F2FE4A3E25826A0000EA8F86 /* CompanyAPIManager.swift */,
 				F2BA64E4258694CD00141E2A /* IsAuthorized.swift */,
 				F2A35E072587E36400EF4FAD /* SensorAPIManager.swift */,
+				F22B86CB25880EBD0071ADF2 /* ContractAPIManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -185,6 +204,7 @@
 		F23D84882581535F0002C5D7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F22B86C525880B3F0071ADF2 /* Contracts */,
 				F2A35DF32587C86200EF4FAD /* Sensor */,
 				F2FE4A4825827B9E00EA8F86 /* Company */,
 				F27627D725800E0700573012 /* Auth */,
@@ -536,6 +556,7 @@
 			files = (
 				F23D848A258153870002C5D7 /* LoginButtonContentView.swift in Sources */,
 				F2FE4A4A25827C2200EA8F86 /* BestPricesView.swift in Sources */,
+				F22B86C725880B550071ADF2 /* MyContractsView.swift in Sources */,
 				F2A35E082587E36400EF4FAD /* SensorAPIManager.swift in Sources */,
 				F2A35DF52587C9D500EF4FAD /* AddSensorView.swift in Sources */,
 				F2FE4A4425826A1D00EA8F86 /* CompanyModels.swift in Sources */,
@@ -549,14 +570,17 @@
 				F22B86BB2587FC700071ADF2 /* MySensorView.swift in Sources */,
 				F276279B257FF55000573012 /* AI_InsuranceApp.swift in Sources */,
 				F2BA64E0258693E100141E2A /* MainView.swift in Sources */,
+				F22B86D625881A740071ADF2 /* ContractCard.swift in Sources */,
 				F2BA64FD2586BCB800141E2A /* ContractModels.swift in Sources */,
 				F23D8495258154DB0002C5D7 /* SignInTextView.swift in Sources */,
 				F2A35E032587E1D400EF4FAD /* SensorModel.swift in Sources */,
 				F2BA64E5258694CD00141E2A /* IsAuthorized.swift in Sources */,
+				F22B86D125881A420071ADF2 /* FetchMyContracts.swift in Sources */,
 				F23D845F25810CB70002C5D7 /* Constants.swift in Sources */,
 				F2FE4A3F25826A0000EA8F86 /* CompanyAPIManager.swift in Sources */,
 				F23D846425810EA40002C5D7 /* AuthAPIManager.swift in Sources */,
 				F23D847025811A8F0002C5D7 /* AuthModel.swift in Sources */,
+				F22B86CC25880EBD0071ADF2 /* ContractAPIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -36,7 +36,7 @@ class SensorAPIManager: BaseAPIManager {
   }
   
   func getMySensor(success successCallback: @escaping (Array<SensorData>) -> Void,
-                   fail failCallback: @escaping (String) -> Void,
+                   fail failCallback: Optional<() -> Void> = nil,
                    final finalCallback: Optional<() -> Void> = nil) {
     AF.request(SensorAPIManager.MY_SENSOR_API_URL, method: .get, headers: self.authHeader)
       .validate()
@@ -46,8 +46,7 @@ class SensorAPIManager: BaseAPIManager {
           successCallback(value.results)
         case .failure(let error):
           debugPrint(error)
-          let errorMessage = self.getDetailError(response.data) ?? "Issue with network"
-          failCallback(errorMessage);
+          failCallback?()
         }
         if let final = finalCallback {
           final()

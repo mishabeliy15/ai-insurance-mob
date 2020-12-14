@@ -8,18 +8,25 @@
 import SwiftUI
 
 struct MainView: View {
+  @State private var selectionTab = 2
+  
   var body: some View {
-    TabView {
+    TabView(selection: $selectionTab) {
+      MySensorView()
+        .tabItem {
+          Image(systemName: "antenna.radiowaves.left.and.right")
+          Text("My Sensors")
+        }.tag(1)
       BestPricesView()
-      .tabItem {
-        Image(systemName: "plus.square.on.square")
-        Text("Companies")
-      }
+        .tabItem {
+          Image(systemName: "plus.square.on.square")
+          Text("Companies")
+        }.tag(2)
       AddSensorView()
         .tabItem {
           Image(systemName: "barcode.viewfinder")
           Text("Add Sensor")
-        }
+        }.tag(3)
     }
   }
   

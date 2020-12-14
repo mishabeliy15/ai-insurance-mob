@@ -7,369 +7,49 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1FEF751C-0DB3-4335-91A0-3EE8031CB806"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AI-Insurance/Networking/AuthAPI.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "login(_:_:success:fail:final:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "559F903C-0808-4742-BD3A-F8FC4A7F94BF"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AI-Insurance/Networking/AuthAPI.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "login(_:_:success:fail:final:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "520BD53E-892F-4E91-8E8C-026388BAF4A1"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AI-Insurance/Networking/AuthAPIManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "login(_:_:success:fail:final:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1E571AC4-6635-436D-AD4F-EA6FAE01EA0D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AI-Insurance/Networking/AuthAPIManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "login(_:_:success:fail:final:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A5F3E383-533F-4C48-82C9-0A46DD1D30D7"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AI-Insurance/Networking/AuthAPIManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "login(_:_:success:fail:final:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C9FE1635-3D3B-4F0E-A0DF-7D42D6128BAA"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AI-Insurance/Networking/AuthAPIManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "verifyToken(token:success:fail:final:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2ABB2E9F-3E0D-4585-AEAE-730E1626D303"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AI-Insurance/Networking/AuthAPIManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
-            landmarkName = "verifyToken(token:success:fail:final:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D2F92431-EB22-401E-850C-8EA013EE824D"
+            uuid = "C280845B-5F33-4CB7-80D8-EBA6AA6F453E"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AI-Insurance/Networking/IsAuthorized.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "verifyToken()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CF710246-A68F-46C6-801D-8EB8990038BB"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AI-Insurance/Networking/IsAuthorized.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "verifyToken()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F1D291BA-4F04-40F7-ABB9-10F5F90FBBFE"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AI-Insurance/Networking/IsAuthorized.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "verifyToken()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A1C28974-9050-412D-8718-CE12970CAB87"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AI-Insurance/Networking/IsAuthorized.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "init()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4CEE7143-51C1-4C13-9254-18BEB2C4EDC5"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AI-Insurance/Networking/IsAuthorized.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "verifyToken()"
-            landmarkType = "7">
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
             <Locations>
                <Location
-                  uuid = "4CEE7143-51C1-4C13-9254-18BEB2C4EDC5 - c37082208a444bba"
+                  uuid = "C280845B-5F33-4CB7-80D8-EBA6AA6F453E - 4b8197adc10aeb22"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "AI_Insurance.IsAuthorized.(verifyToken in _3A625F5596A5E55037B5A87B478E445F)() -&gt; ()"
+                  symbolName = "AI_Insurance.IsAuthorized.deinit"
                   moduleName = "AI-Insurance"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/misha_beliy/nure/5_term/refactoring/AI-Insurance/AI-Insurance/Networking/IsAuthorized.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "332">
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
                </Location>
                <Location
-                  uuid = "4CEE7143-51C1-4C13-9254-18BEB2C4EDC5 - d5321ffb15704eca"
+                  uuid = "C280845B-5F33-4CB7-80D8-EBA6AA6F453E - f8e72632d7d6e790"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in AI_Insurance.IsAuthorized.(verifyToken in _3A625F5596A5E55037B5A87B478E445F)() -&gt; ()"
+                  symbolName = "AI_Insurance.IsAuthorized.__deallocating_deinit"
                   moduleName = "AI-Insurance"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/misha_beliy/nure/5_term/refactoring/AI-Insurance/AI-Insurance/Networking/IsAuthorized.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "24">
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "5286BE0F-3A87-4433-AB69-5B879B612358"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AI-Insurance/Networking/IsAuthorized.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "init()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "30AAD58E-99FB-4AD9-A7A9-D74C2D25FA22"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AI-Insurance/Networking/IsAuthorized.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "verifyToken()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "30AAD58E-99FB-4AD9-A7A9-D74C2D25FA22 - d5321ffb15704ee9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in AI_Insurance.IsAuthorized.(verifyToken in _3A625F5596A5E55037B5A87B478E445F)() -&gt; ()"
-                  moduleName = "AI-Insurance"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/misha_beliy/nure/5_term/refactoring/AI-Insurance/AI-Insurance/Networking/IsAuthorized.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "56">
-               </Location>
-               <Location
-                  uuid = "30AAD58E-99FB-4AD9-A7A9-D74C2D25FA22 - e77574c8e27f1009"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 () -&gt; () in AI_Insurance.IsAuthorized.(verifyToken in _3A625F5596A5E55037B5A87B478E445F)() -&gt; ()"
-                  moduleName = "AI-Insurance"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/misha_beliy/nure/5_term/refactoring/AI-Insurance/AI-Insurance/Networking/IsAuthorized.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "24">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B435FCB0-D77A-42C5-B531-24F5AE43CF7F"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AI-Insurance/Views/Company/DetailPriceView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "140E10B5-A4B3-4D64-AC3E-61244FB41B7B"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AI-Insurance/Views/Sensor/AddSensorView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "scanner"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "140E10B5-A4B3-4D64-AC3E-61244FB41B7B - ee577f5d081c1fc1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Swift.String, CodeScanner.CodeScannerView.ScanError&gt;) -&gt; () in AI_Insurance.AddSensorView.scanner.getter : some"
-                  moduleName = "AI-Insurance"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/misha_beliy/nure/5_term/refactoring/AI-Insurance/AI-Insurance/Views/Sensor/AddSensorView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "1248">
-               </Location>
-               <Location
-                  uuid = "140E10B5-A4B3-4D64-AC3E-61244FB41B7B - 114d0fd3e2e7fbd9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (AI_Insurance.BaseSensorData) -&gt; () in closure #1 (Swift.Result&lt;Swift.String, CodeScanner.CodeScannerView.ScanError&gt;) -&gt; () in AI_Insurance.AddSensorView.scanner.getter : some"
-                  moduleName = "AI-Insurance"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/misha_beliy/nure/5_term/refactoring/AI-Insurance/AI-Insurance/Views/Sensor/AddSensorView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "92">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8C86EB33-0153-4254-B900-974DD44E3B8E"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AI-Insurance/Networking/SensorAPIManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "addSensor(_:success:fail:final:)"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

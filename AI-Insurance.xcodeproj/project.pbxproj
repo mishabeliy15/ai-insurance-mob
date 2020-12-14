@@ -10,6 +10,7 @@
 		634CCFF79A02FC2140845B3F /* Pods_AI_InsuranceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8CCDD12DB4334BECF61256 /* Pods_AI_InsuranceTests.framework */; };
 		63DAF5BD13EAADE5BEFE87CE /* Pods_AI_Insurance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A905927CEBBF937A4344CCC8 /* Pods_AI_Insurance.framework */; };
 		753D3CB45F934FE2646A1651 /* Pods_AI_Insurance_AI_InsuranceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3D6C38CBC88795668959EB /* Pods_AI_Insurance_AI_InsuranceUITests.framework */; };
+		F22B86BB2587FC700071ADF2 /* MySensorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B86BA2587FC700071ADF2 /* MySensorView.swift */; };
 		F23D845F25810CB70002C5D7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D845E25810CB70002C5D7 /* Constants.swift */; };
 		F23D846425810EA40002C5D7 /* AuthAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D846325810EA40002C5D7 /* AuthAPIManager.swift */; };
 		F23D847025811A8F0002C5D7 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D846F25811A8F0002C5D7 /* AuthModel.swift */; };
@@ -66,6 +67,7 @@
 		A905927CEBBF937A4344CCC8 /* Pods_AI_Insurance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AI_Insurance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B35EB819ABE5F8C17540F319 /* Pods-AI-Insurance-AI-InsuranceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AI-Insurance-AI-InsuranceUITests.release.xcconfig"; path = "Target Support Files/Pods-AI-Insurance-AI-InsuranceUITests/Pods-AI-Insurance-AI-InsuranceUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DD8CCDD12DB4334BECF61256 /* Pods_AI_InsuranceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AI_InsuranceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22B86BA2587FC700071ADF2 /* MySensorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySensorView.swift; sourceTree = "<group>"; };
 		F23D845E25810CB70002C5D7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F23D846325810EA40002C5D7 /* AuthAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAPIManager.swift; sourceTree = "<group>"; };
 		F23D846F25811A8F0002C5D7 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
@@ -271,6 +273,7 @@
 			isa = PBXGroup;
 			children = (
 				F2A35DF42587C9D500EF4FAD /* AddSensorView.swift */,
+				F22B86BA2587FC700071ADF2 /* MySensorView.swift */,
 			);
 			path = Sensor;
 			sourceTree = "<group>";
@@ -543,6 +546,7 @@
 				F23D847C25813F0F0002C5D7 /* BaseAPIManager.swift in Sources */,
 				F27627D925800E2700573012 /* LoginView.swift in Sources */,
 				F276279D257FF55000573012 /* ContentView.swift in Sources */,
+				F22B86BB2587FC700071ADF2 /* MySensorView.swift in Sources */,
 				F276279B257FF55000573012 /* AI_InsuranceApp.swift in Sources */,
 				F2BA64E0258693E100141E2A /* MainView.swift in Sources */,
 				F2BA64FD2586BCB800141E2A /* ContractModels.swift in Sources */,

@@ -25,3 +25,8 @@
 "Add Sensor" = "Добавить Датчик";
 "Duration must be in range {3...12}" = "Длительность должна быть от 3 до 12";
 "Duration (months)" = "Длительность (месяцев)";
+"Scan a QR code to add sensor" = "Сканируйте QR-код, чтобы добавить датчик";
+"Invalid QR code" = "QR-код недействителен";
+"Added sensor:" = "Добавлен датчик:";
+"Movement" = "Передвижения";
+"Camera" = "Камера";

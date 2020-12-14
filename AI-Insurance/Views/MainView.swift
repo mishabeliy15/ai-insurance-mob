@@ -15,7 +15,7 @@ struct MainView: View {
         Image(systemName: "plus.square.on.square")
         Text("Companies")
       }
-      Text("Second View!!!")
+      AddSensorView()
         .tabItem {
           Image(systemName: "barcode.viewfinder")
           Text("Add Sensor")

@@ -40,7 +40,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "520BD53E-892F-4E91-8E8C-026388BAF4A1"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AI-Insurance/Networking/AuthAPIManager.swift"
@@ -56,7 +56,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "1E571AC4-6635-436D-AD4F-EA6FAE01EA0D"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AI-Insurance/Networking/AuthAPIManager.swift"
@@ -306,6 +306,70 @@
             endingLineNumber = "58"
             landmarkName = "body"
             landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "140E10B5-A4B3-4D64-AC3E-61244FB41B7B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AI-Insurance/Views/Sensor/AddSensorView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "scanner"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "140E10B5-A4B3-4D64-AC3E-61244FB41B7B - ee577f5d081c1fc1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.String, CodeScanner.CodeScannerView.ScanError&gt;) -&gt; () in AI_Insurance.AddSensorView.scanner.getter : some"
+                  moduleName = "AI-Insurance"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/misha_beliy/nure/5_term/refactoring/AI-Insurance/AI-Insurance/Views/Sensor/AddSensorView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "1248">
+               </Location>
+               <Location
+                  uuid = "140E10B5-A4B3-4D64-AC3E-61244FB41B7B - 114d0fd3e2e7fbd9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AI_Insurance.BaseSensorData) -&gt; () in closure #1 (Swift.Result&lt;Swift.String, CodeScanner.CodeScannerView.ScanError&gt;) -&gt; () in AI_Insurance.AddSensorView.scanner.getter : some"
+                  moduleName = "AI-Insurance"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/misha_beliy/nure/5_term/refactoring/AI-Insurance/AI-Insurance/Views/Sensor/AddSensorView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C86EB33-0153-4254-B900-974DD44E3B8E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AI-Insurance/Networking/SensorAPIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "addSensor(_:success:fail:final:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

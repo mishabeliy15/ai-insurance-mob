@@ -27,7 +27,7 @@ struct DetailPriceView: View {
     NavigationView{
       VStack() {
         DetailPriceText(title: "Personal price", value: company.ownPrice)
-        DetailPriceText(title: "Speed discount", value: company.ownSpeedDiscount)
+        DetailPriceText(title: "Speed ​​discount", value: company.ownSpeedDiscount)
         DetailPriceText(title: "Head rotate discount", value: company.ownHeadRotateDiscount)
         DetailPriceText(title: "Base price", value: company.basePrice)
         DetailPriceText(title: "Min price", value: company.minPrice)

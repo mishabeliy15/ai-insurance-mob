@@ -83,6 +83,7 @@
 		F23D8489258153870002C5D7 /* LoginButtonContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonContentView.swift; sourceTree = "<group>"; };
 		F23D8494258154DB0002C5D7 /* SignInTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInTextView.swift; sourceTree = "<group>"; };
 		F23D84992581581F0002C5D7 /* localStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = localStorage.swift; sourceTree = "<group>"; };
+		F26E30FF258A5DF600F3F49A /* uk-UA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "uk-UA"; path = "uk-UA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F2762797257FF55000573012 /* AI-Insurance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI-Insurance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F276279A257FF55000573012 /* AI_InsuranceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_InsuranceApp.swift; sourceTree = "<group>"; };
 		F276279C257FF55000573012 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -403,6 +404,7 @@
 				Base,
 				ru,
 				uk,
+				"uk-UA",
 			);
 			mainGroup = F276278E257FF55000573012;
 			packageReferences = (
@@ -622,6 +624,7 @@
 				F2D5AE9D2580206000EC85FA /* en */,
 				F2D5AEA8258022F700EC85FA /* ru */,
 				F2D5AEAC2580230300EC85FA /* uk */,
+				F26E30FF258A5DF600F3F49A /* uk-UA */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

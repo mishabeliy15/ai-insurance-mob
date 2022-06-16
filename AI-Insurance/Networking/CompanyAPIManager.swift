@@ -24,8 +24,7 @@ class CompanyAPIManager: BaseAPIManager {
         switch response.result {
         case .success(let value):
           successCallback(value)
-        case .failure(let error):
-          debugPrint(error)
+        case .failure(_):
           let errorMessage = self.getDetailError(response.data) ?? "Issue with network"
           if let fail = failCallback{
             fail(errorMessage);
@@ -48,8 +47,7 @@ class CompanyAPIManager: BaseAPIManager {
         switch response.result {
         case .success(let contract):
           successCallback(contract)
-        case .failure(let error):
-          debugPrint(error)
+        case .failure(_):
           let errorMessage = self.getDetailError(response.data) ?? "Issue with network"
           if let fail = failCallback{
             fail(errorMessage);
